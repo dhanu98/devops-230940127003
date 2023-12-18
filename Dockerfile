@@ -2,4 +2,4 @@ FROM ubuntu
 RUN apt update -y
 RUN mkdir /programming
 COPY code.py /programming/
-CMD [ "python333","/Programming/code.py" ]
+CMD [ "python3","/Programming/code.py" ]
